@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/CarelHernandez/carelHernan
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Here is a list of some of my completed projects!
-
+https://github.com/CarelHernandez/CarelHernandez.rock.paper.scissors/blob/master/carel's%20rock%2Cpaper%2C%20scissors%20program.py
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
