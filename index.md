@@ -4,15 +4,14 @@
 
 
 # Header 1 ROCK<PAPER<SCISSORS 
-#variables
+
 while True: 
     import random
-    
-#intro 
+
     print ("lets play rock, paper, scissors!")
     print (" pick rock or paper or scissors")
     player_choice = input ()
-#rock
+
     computer = random.randint (1,3) 
     if player_choice == "rock" and computer == 1:
         print (" you tied with me!")
@@ -21,14 +20,14 @@ while True:
     if player_choice == "rock" and computer == 3:
         print (" you won!")
 
-# paper
+
     if player_choice == "paper" and computer == 1:
         print (" you won!")
     if player_choice == "paper" and computer == 2:
         print (" you tied with me!" )
     if player_choice == "paper" and computer == 3:  
         print (" you lost")
-#scissors
+
     if player_choice == "scissors" and computer == 1:
         print (" you lost")
     if player_choice == "scissors" and computer == 2:
@@ -37,7 +36,7 @@ while True:
         print (" you tied with me")
     
 
-#loop
+
 
     question = input (" do you want to try again?")
     if question == "yes" :
@@ -92,7 +91,7 @@ if button_a.get_presses() and button_b.get_presses()
     print ("lets play rock, paper, scissors!")
     print (" pick rock or paper or scissors")
     player_choice = input ()
-#rock
+
     
     computer = random.randint (1,3) 
     if player_choice == 1 and computer == 1:
@@ -102,14 +101,14 @@ if button_a.get_presses() and button_b.get_presses()
     if player_choice == 1 and computer == 3:
         display.show (Image.SMILE)
 
-# paper
+
     if player_choice == 2 and computer == 1:
         display.show (Image.SMILE)
     if player_choice == 2 and computer == 2:
         display.show (Image.CONFUSED)
     if player_choice == 2 and computer == 3:  
         display.show (Image.SAD)
-#scissors
+
     if player_choice == 3 and computer == 1:
         display.show (Image.SAD)
     if player_choice == 3 and computer == 2:
@@ -118,7 +117,7 @@ if button_a.get_presses() and button_b.get_presses()
         display.show (Image.CONFUSED)
     
 
-#loop
+
 
     if button_a.get_presses(): 
         if button_a.get_presses(): 
