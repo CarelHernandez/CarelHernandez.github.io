@@ -1,17 +1,51 @@
 ## Welcome to Carel's Page
 
-You can use the [editor on GitHub](https://github.com/CarelHernandez/carelHernandez.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Here is a list of some of my completed projects!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Header 1 ROCK<PAPER<SCISSORS 
+#variables
+while True: 
+    import random
+    
+#intro 
+    print ("lets play rock, paper, scissors!")
+    print (" pick rock or paper or scissors")
+    player_choice = input ()
+#rock
+    computer = random.randint (1,3) 
+    if player_choice == "rock" and computer == 1:
+        print (" you tied with me!")
+    if player_choice == "rock" and computer == 2:
+        print(" you lost")
+    if player_choice == "rock" and computer == 3:
+        print (" you won!")
 
-# Header 1
+# paper
+    if player_choice == "paper" and computer == 1:
+        print (" you won!")
+    if player_choice == "paper" and computer == 2:
+        print (" you tied with me!" )
+    if player_choice == "paper" and computer == 3:  
+        print (" you lost")
+#scissors
+    if player_choice == "scissors" and computer == 1:
+        print (" you lost")
+    if player_choice == "scissors" and computer == 2:
+        print(" you won!")
+    if player_choice == "scissors" and computer == 3:
+        print (" you tied with me")
+    
+
+#loop
+
+    question = input (" do you want to try again?")
+    if question == "yes" :
+        print ("great")
+
+    if question == "no":
+        break 
+
 
 ## Header 2 CHATTER BOT 
 print(" hi my name is Car-two-el, I am here to help you get comftorable with talking to people so dont get intrigued. So whats your name?)
@@ -39,25 +73,57 @@ if Hmm == "no thanks" or Hmm == "no" or Hmm == "na" or Hmm == "nope"
       break
 print (" how else then can I help with? 
 
-### Header 3
+### Header 3 MICROBIT- ROCK<PAPER<SCISSORS
 
-- Bulleted
-- List
+from microbit import *
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+while True:
+       import random
+player_choice = 0 
+if button_a.get_presses(): 
+    player_choice = 1
+if button_b.get_presses(): 
+    player_choice = 2
+if button_a.get_presses() and button_b.get_presses()
+    player_choice = 3
 
-[Link](url) and ![Image](src)
-```
+#intro 
+    print ("lets play rock, paper, scissors!")
+    print (" pick rock or paper or scissors")
+    player_choice = input ()
+#rock
+    
+    computer = random.randint (1,3) 
+    if player_choice == 1 and computer == 1:
+        display.show (Image.CONFUSED)
+    if player_choice == 1 and computer == 2:
+       display.show (Image.SAD)
+    if player_choice == 1 and computer == 3:
+        display.show (Image.SMILE)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# paper
+    if player_choice == 2 and computer == 1:
+        display.show (Image.SMILE)
+    if player_choice == 2 and computer == 2:
+        display.show (Image.CONFUSED)
+    if player_choice == 2 and computer == 3:  
+        display.show (Image.SAD)
+#scissors
+    if player_choice == 3 and computer == 1:
+        display.show (Image.SAD)
+    if player_choice == 3 and computer == 2:
+        display.show (Image.SMILE)
+    if player_choice == 3 and computer == 3:
+        display.show (Image.CONFUSED)
+    
 
-### Jekyll Themes
+#loop
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CarelHernandez/carelHernandez.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    if button_a.get_presses(): 
+        if button_a.get_presses(): 
+            break
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    if button_b.get_presses(): 
+        if button_b.get_presses(): 
+        break 
