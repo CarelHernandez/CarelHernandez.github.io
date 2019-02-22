@@ -70,7 +70,7 @@ while True:
     Hmm = input ()
     if Hmm == "no thanks" or Hmm == "no" or Hmm == "na" or Hmm == "nope"
           break
-    print (" how else then can I help with? 
+    print (" I am gonna go to rest, i am over heating, have a good day!") 
 
 ### Header 3 MICROBIT- ROCK<PAPER<SCISSORS
 
